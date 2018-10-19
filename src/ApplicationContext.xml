@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+    <bean id="address" class="com.nowburn.myspring.bean.Address">
+        <property name="city" value="hangzhou"/>
+    </bean>
+
+    <bean id="user" class="com.nowburn.myspring.bean.User">
+        <property name="age" value="23"/>
+        <property name="address" ref="address"/>
+    </bean>
+
+</beans>
