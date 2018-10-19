@@ -1,3 +1,5 @@
+package com.nowburn.myspring;
+
 import com.nowburn.myspring.bean.Bean;
 import com.nowburn.myspring.bean.User;
 import com.nowburn.myspring.config.XmlConfig;
